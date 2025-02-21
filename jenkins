@@ -7,17 +7,15 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        
-         stage('Build') {
+        stage('Build') {
             steps {
-                echo 'Hello Build'
+                echo 'Build in progress'
             }
         }
-        
-         stage('Test') {
+        stage('Test') {
             steps {
-                echo 'test is in progress'
+                echo 'Test in progress'
             }
         }
-    }   
+    }
 }
